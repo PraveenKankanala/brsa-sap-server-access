@@ -1,0 +1,156 @@
+.contact{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.contact .container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:42px;
+    color:#111;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.contact .section-description{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 50px;
+    color:#666;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:35px;
+}
+
+.contact-card{
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+    border:1px solid #e5ecff;
+    transition:.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 30px 60px rgba(13,110,253,.18);
+}
+
+.contact-card h3{
+    color:#fd790d;
+    font-size:28px;
+    margin-bottom:25px;
+}
+
+.contact-card p{
+    color:#555;
+    margin-bottom:18px;
+    line-height:1.8;
+}
+
+.contact-card strong{
+    color:#111;
+}
+
+.contact-card a{
+    color:#fd0d89;
+    text-decoration:none;
+}
+
+.contact-card a:hover{
+    text-decoration:underline;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border-color:#0d6efd;
+    box-shadow:0 0 10px rgba(13,110,253,.2);
+}
+
+textarea{
+    resize:none;
+}
+
+button{
+    background:linear-gradient(135deg,#0d6efd,#00b4ff);
+    color:#fff;
+    border:none;
+    padding:16px;
+    border-radius:10px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 30px rgba(13,110,253,.3);
+}
+
+@media(max-width:992px){
+
+.contact{
+padding:80px 0;
+}
+
+.contact h2{
+font-size:34px;
+}
+
+}
+
+@media(max-width:576px){
+
+.contact{
+padding:60px 0;
+}
+
+.contact h2{
+font-size:28px;
+}
+
+.contact-card{
+padding:25px;
+}
+
+.contact-card h3{
+font-size:22px;
+}
+
+input,
+select,
+textarea,
+button{
+font-size:15px;
+}
+
+}
