@@ -1,6 +1,6 @@
-import "./AboutUs.css";
+import "./Aboutus.css";
 
-function AboutUs() {
+function Aboutus() {
   return (
     <section className="about" id="about">
       <div className="about-container">
@@ -68,4 +68,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Aboutus;

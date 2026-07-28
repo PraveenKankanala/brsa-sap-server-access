@@ -1,6 +1,6 @@
-import "./WhyToChooseUs.css";
+import "./Whytohooseus.css";
 
-function WhyToChooseUs() {
+function Whytochooseus() {
   return (
     <section className="why-choose-us" id="why">
 
@@ -97,4 +97,4 @@ function WhyToChooseUs() {
   );
 }
 
-export default WhyToChooseUs;
+export default Whytochooseus;
