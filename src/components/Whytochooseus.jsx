@@ -1,4 +1,4 @@
-import "./Whytohooseus.css";
+import "./Whytochooseus.css";
 
 function Whytochooseus() {
   return (
