@@ -5,7 +5,7 @@ import Aboutus from "./components/Aboutus";
 import Products from "./components/Products";
 import Modules from "./components/Modules";
 import Features from "./components/Features";
-import WhyToChooseUs from "./components/WhyToChooseUs";
+import Whytochooseus from "./components/Whytochooseus";
 import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact.jsx";
@@ -20,7 +20,7 @@ function App() {
       <Products />
       <Modules />
       <Features />
-      <WhyToChooseUs />
+      <Whytochooseus />
       <Pricing />
       <FAQ />
       <Contact />
