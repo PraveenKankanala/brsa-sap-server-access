@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero.jsx";
-import Aboutus from "./components/AboutUs";
+import Aboutus from "./components/Aboutus";
 import Products from "./components/Products";
 import Modules from "./components/Modules";
 import Features from "./components/Features";
