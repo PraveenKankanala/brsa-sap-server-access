@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero.jsx";
-import AboutUs from "./components/AboutUs";
+import Aboutus from "./components/AboutUs";
 import Products from "./components/Products";
 import Modules from "./components/Modules";
 import Features from "./components/Features";
@@ -16,7 +16,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <AboutUs />
+      <Aboutus />
       <Products />
       <Modules />
       <Features />
