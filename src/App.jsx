@@ -14,7 +14,9 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
   <>
-      <Navbar />
+    <Navbar />
+
+    <main>
       <Hero />
       <Aboutus />
       <Products />
@@ -24,6 +26,8 @@ function App() {
       <Pricing />
       <FAQ />
       <Contact />
+    </main>
+
       <Footer />
     </>
   );
