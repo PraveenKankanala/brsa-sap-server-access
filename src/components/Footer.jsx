@@ -16,12 +16,12 @@ function Footer() {
         {/* Company */}
 
         <div className="footer-section">
-          <h2 className="footer-logo">RR SAP SERVER ACCESS</h2>
+          <h2 className="footer-logo">SAP SERVER ACCESS</h2>
 
           <p>
-            India's trusted RR Server Access platform providing
+            India's trusted SAP SERVER ACCESS platform providing
             SAP S/4HANA 2025, SAP ECC 6.0 and SAP SuccessFactors
-            practice servers for students and professionals.
+           servers for companies,institutes and professionals.
           </p>
         </div>
 
@@ -105,11 +105,11 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © {new Date().getFullYear()} RR SAP SERVER ACCESS. All Rights Reserved.
+          © {new Date().getFullYear()}  SAP SERVER ACCESS. All Rights Reserved.
         </p>
 
         <p>
-          Designed & Developed by <strong>RR SAP SERVER ACCESS</strong>
+          Designed & Developed by <strong> SAP SERVER ACCESS</strong>
         </p>
 
       </div>

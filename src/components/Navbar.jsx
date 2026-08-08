@@ -9,7 +9,7 @@ function Navbar() {
         {/* Logo */}
 
         <div className="logo">
-          <h2>RR SAP SERVER ACCESS</h2>
+          <h2> SAP SERVER ACCESS</h2>
         </div>
 
         {/* Navigation Menu */}

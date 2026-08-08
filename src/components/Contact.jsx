@@ -8,7 +8,7 @@ function Contact() {
 
         <span className="section-tag">CONTACT US</span>
 
-        <h2>Contact RR SAP Server Access</h2>
+        <h2>Contact SAP Server Access</h2>
 
         <p className="section-description">
           Have questions about SAP Server Access? Contact us through phone,

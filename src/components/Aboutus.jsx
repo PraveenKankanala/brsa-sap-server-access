@@ -6,12 +6,12 @@ function Aboutus() {
       <div className="about-container">
 
         <div className="about-left">
-          <span className="section-tag">ABOUT RR SAP SERVER ACCESS</span>
+          <span className="section-tag">ABOUT  SAP SERVER ACCESS</span>
 
-          <h2>India's Trusted RR SAP Server Access Platform</h2>
+          <h2>India's Trusted  SAP Server Access Platform</h2>
 
           <p>
-            RR SAP Server Access provides affordable and reliable SAP
+             SAP Server Access provides affordable and reliable SAP
             practice environments for students, working professionals,
             trainers, institutes and organizations.
           </p>
