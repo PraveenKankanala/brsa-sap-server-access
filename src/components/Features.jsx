@@ -8,11 +8,11 @@ function Features() {
 
         <span className="section-tag">FEATURES</span>
 
-        <h2>Why Our RR SAP Server Access Stands Out</h2>
+        <h2>Why Our SAP Server Access Stands Out</h2>
 
         <p className="section-description">
-          RR SAP Server Access offers enterprise-grade SAP environments designed
-          for students, professionals, trainers and organizations.
+          SAP Server Access offers enterprise-grade SAP environments designed
+          for Companies,Institutions and organizations.
         </p>
 
         <div className="features-grid">

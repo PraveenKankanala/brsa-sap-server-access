@@ -18,7 +18,7 @@ function Hero() {
           </h1>
 
           <p>
-            BRSA SAP Server Access provides affordable access to
+             SAP Server Access provides affordable access to
             SAP S/4HANA, SAP ECC, SAP BTP, SuccessFactors,
             Fiori and more. Learn with real enterprise systems,
             not simulations.

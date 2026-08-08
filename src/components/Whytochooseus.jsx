@@ -6,12 +6,12 @@ function Whytochooseus() {
 
       <div className="container">
 
-        <span className="section-tag">WHY CHOOSE RR</span>
+        <span className="section-tag">WHY CHOOSE SAP SERVER ACCESS</span>
 
-        <h2>Why Choose RR SAP Server Access?</h2>
+        <h2>Why Choose SAP Server Access?</h2>
 
         <p className="section-description">
-          BRSA SAP Server Access provides secure, affordable and enterprise-level
+          SAP Server Access provides secure, affordable and enterprise-level
           SAP practice environments for students, professionals, trainers and
           organizations.
         </p>

@@ -12,8 +12,7 @@ function Aboutus() {
 
           <p>
              SAP Server Access provides affordable and reliable SAP
-            practice environments for students, working professionals,
-            trainers, institutes and organizations.
+            practice environments for Companies, Institutions, Students and organizations.
           </p>
 
           <p>

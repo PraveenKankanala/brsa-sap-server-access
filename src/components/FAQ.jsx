@@ -17,9 +17,9 @@ function FAQ() {
         <div className="faq-container">
 
           <div className="faq-item">
-            <h3>What is RR SAP Server Access?</h3>
+            <h3>What is SAP Server Access?</h3>
             <p>
-              BRSA SAP Server Access provides live SAP practice environments
+             SAP Server Access provides live SAP practice environments
               for students, professionals, trainers and organizations. Access
               enterprise SAP systems anytime through our secure cloud platform.
             </p>
@@ -76,7 +76,7 @@ function FAQ() {
           </div>
 
           <div className="faq-item">
-            <h3>How can I contact RR Support?</h3>
+            <h3>How can I contact SAP Server Access Support?</h3>
             <p>
               You can contact us through WhatsApp, Email or the Contact section
               on our website. Our team will respond as quickly as possible.
