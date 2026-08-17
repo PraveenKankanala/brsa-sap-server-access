@@ -1,7 +1,7 @@
 import React from "react";
-import "./WhatsAppButton.css";
+import "./Whatsappbutton.css";
 
-const WhatsAppButton = () => {
+const Whatsappbutton = () => {
   const phoneNumber = "918309820381";
 
   const message = encodeURIComponent(
@@ -24,4 +24,4 @@ const WhatsAppButton = () => {
   );
 };
 
-export default WhatsAppButton;
+export default Whatsappbutton;
