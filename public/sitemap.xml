@@ -2,105 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Main Pages -->
+
   <url>
-    <loc>https://sapserveraccess.vercel.app/</loc>
+    <loc>https://www.sapserveraccess.site/</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/about</loc>
+    <loc>https://www.sapserveraccess.site/about</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/contact</loc>
+    <loc>https://www.sapserveraccess.site/contact</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/features</loc>
+    <loc>https://www.sapserveraccess.site/features</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/faq</loc>
+    <loc>https://www.sapserveraccess.site/faq</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/pricing</loc>
+    <loc>https://www.sapserveraccess.site/pricing</loc>
   </url>
 
 
   <!-- SAP Functional Modules -->
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-fi</loc>
+    <loc>https://www.sapserveraccess.site/SAPFI</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-co</loc>
+    <loc>https://www.sapserveraccess.site/SAPCO</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-mm</loc>
+    <loc>https://www.sapserveraccess.site/SAPMM</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-sd</loc>
+    <loc>https://www.sapserveraccess.site/SAPSD</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-pp</loc>
+    <loc>https://www.sapserveraccess.site/SAPPP</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-qm</loc>
+    <loc>https://www.sapserveraccess.site/SAPQM</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-hcm</loc>
+    <loc>https://www.sapserveraccess.site/SAPHCM</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-ps</loc>
+    <loc>https://www.sapserveraccess.site/SAPPS</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-pm</loc>
+    <loc>https://www.sapserveraccess.site/SAPPM</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-ewm</loc>
+    <loc>https://www.sapserveraccess.site/SAPEWM</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-tm</loc>
+    <loc>https://www.sapserveraccess.site/SAPTM</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-gts</loc>
+    <loc>https://www.sapserveraccess.site/SAPGTS</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-ariba</loc>
+    <loc>https://www.sapserveraccess.site/SAPAriba</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-bw4hana</loc>
+    <loc>https://www.sapserveraccess.site/SAPBW4HANA</loc>
   </url>
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-successfactors</loc>
+    <loc>https://www.sapserveraccess.site/SAPSuccessFactors</loc>
   </url>
 
 
   <!-- SAP Technology / Platform -->
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-btp</loc>
+    <loc>https://www.sapserveraccess.site/SAPBTP</loc>
   </url>
 
 
   <!-- SAP Technical Modules -->
 
   <url>
-    <loc>https://sapserveraccess.vercel.app/sap-abap</loc>
+    <loc>https://www.sapserveraccess.site/SAPABAP</loc>
   </url>
 
 </urlset>

@@ -1,54 +1,84 @@
-# SAP Server Access
+# SAP SERVER ACCESS
 
-> SAP Server Access provides SAP server access and SAP training environments for students, institutions, and companies.
+## Website
+https://www.sapserveraccess.site/
 
-## Main Pages
-
-- [Home](https://sapserveraccess.vercel.app/)
-- [About Us](https://sapserveraccess.vercel.app/about)
-- [Contact](https://sapserveraccess.vercel.app/contact)
-- [Features](https://sapserveraccess.vercel.app/features)
-- [FAQ](https://sapserveraccess.vercel.app/faq)
+## About
+SAP SERVER ACCESS provides SAP server access and SAP practice environments for students, learners, and professionals.
 
 ## SAP Functional Modules
 
-- [SAP FI](https://sapserveraccess.vercel.app/sap-fi)
-- [SAP MM](https://sapserveraccess.vercel.app/sap-mm)
-- [SAP SD](https://sapserveraccess.vercel.app/sap-sd)
-- [SAP PP](https://sapserveraccess.vercel.app/sap-pp)
-- [SAP QM](https://sapserveraccess.vercel.app/sap-qm)
-- [SAP HCM](https://sapserveraccess.vercel.app/sap-hcm)
-- [SAP PS](https://sapserveraccess.vercel.app/sap-ps)
-- [SAP PM](https://sapserveraccess.vercel.app/sap-pm)
+- SAP FI (Financial Accounting)
+  https://www.sapserveraccess.site/SAPFI
+
+- SAP CO (Controlling)
+  https://www.sapserveraccess.site/SAPCO
+
+- SAP MM (Materials Management)
+  https://www.sapserveraccess.site/SAPMM
+
+- SAP SD (Sales and Distribution)
+  https://www.sapserveraccess.site/SAPSD
+
+- SAP PP (Production Planning)
+  https://www.sapserveraccess.site/SAPPP
+
+- SAP QM (Quality Management)
+  https://www.sapserveraccess.site/SAPQM
+
+- SAP HCM (Human Capital Management)
+  https://www.sapserveraccess.site/SAPHCM
+
+- SAP PS (Project System)
+  https://www.sapserveraccess.site/SAPPS
+
+- SAP PM (Plant Maintenance)
+  https://www.sapserveraccess.site/SAPPM
+
+- SAP EWM (Extended Warehouse Management)
+  https://www.sapserveraccess.site/SAPEWM
+
+- SAP TM (Transportation Management)
+  https://www.sapserveraccess.site/SAPTM
+
+- SAP GTS (Global Trade Services)
+  https://www.sapserveraccess.site/SAPGTS
+
+- SAP Ariba
+  https://www.sapserveraccess.site/SAPARIBA
+
+- SAP BW/4HANA
+  https://www.sapserveraccess.site/SAPBW4HANA
+
+- SAP SuccessFactors
+  https://www.sapserveraccess.site/SAPSUCCESSFACTORS
+
+## SAP Technology / Platform
+
+- SAP BTP (Business Technology Platform)
+  https://www.sapserveraccess.site/SAPBTP
 
 ## SAP Technical Modules
 
-- [SAP ABAP](https://sapserveraccess.vercel.app/sap-abap)
-- [SAP Basis](https://sapserveraccess.vercel.app/sap-basis)
-- [SAP BW/4HANA](https://sapserveraccess.vercel.app/sap-bw4hana)
-- [SAP BTP](https://sapserveraccess.vercel.app/sap-btp)
+- SAP ABAP
+  https://www.sapserveraccess.site/SAPABAP
 
-## Services
+## Main Pages
 
-- SAP server access
-- SAP training environments
-- SAP practice systems
-- SAP functional module practice
-- SAP technical module practice
-- SAP ABAP practice
-- SAP Basis practice
-- SAP BW/4HANA practice
-- SAP BTP practice
+- About
+  https://www.sapserveraccess.site/about
 
-## Target Users
+- Contact
+  https://www.sapserveraccess.site/contact
 
-- SAP students
-- SAP freshers
-- SAP training institutes
-- Colleges and institutions
-- Companies and corporate training teams
+- Features
+  https://www.sapserveraccess.site/features
 
-## Contact
+- FAQ
+  https://www.sapserveraccess.site/faq
 
-- Website: https://sapserveraccess.vercel.app/
-- Phone: 8309820381
+- Pricing
+  https://www.sapserveraccess.site/pricing
+
+## Sitemap
+https://www.sapserveraccess.site/sitemap.xml
