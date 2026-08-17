@@ -1,22 +1,54 @@
 # SAP Server Access
 
-> SAP Server Access provides SAP server access and SAP training resources for students, institutions, and companies.
+> SAP Server Access provides SAP server access and SAP training environments for students, institutions, and companies.
 
 ## Main Pages
 
-- [Home](http://localhost:4173/)
-- [About Us](http://localhost:4173/about)
-- [Contact](http://localhost:4173/contact)
-- [Features](http://localhost:4173/features)
-- [FAQ](http://localhost:4173/faq)
+- [Home](https://sapserveraccess.vercel.app/)
+- [About Us](https://sapserveraccess.vercel.app/about)
+- [Contact](https://sapserveraccess.vercel.app/contact)
+- [Features](https://sapserveraccess.vercel.app/features)
+- [FAQ](https://sapserveraccess.vercel.app/faq)
 
-## SAP Modules
+## SAP Functional Modules
 
-- [SAP FI](http://localhost:4173/sap-fi)
-- [SAP MM](http://localhost:4173/sap-mm)
-- [SAP SD](http://localhost:4173/sap-sd)
-- [SAP PP](http://localhost:4173/sap-pp)
-- [SAP QM](http://localhost:4173/sap-qm)
-- [SAP HCM](http://localhost:4173/sap-hcm)
-- [SAP PS](http://localhost:4173/sap-ps)
-- [SAP PM](http://localhost:4173/sap-pm)
+- [SAP FI](https://sapserveraccess.vercel.app/sap-fi)
+- [SAP MM](https://sapserveraccess.vercel.app/sap-mm)
+- [SAP SD](https://sapserveraccess.vercel.app/sap-sd)
+- [SAP PP](https://sapserveraccess.vercel.app/sap-pp)
+- [SAP QM](https://sapserveraccess.vercel.app/sap-qm)
+- [SAP HCM](https://sapserveraccess.vercel.app/sap-hcm)
+- [SAP PS](https://sapserveraccess.vercel.app/sap-ps)
+- [SAP PM](https://sapserveraccess.vercel.app/sap-pm)
+
+## SAP Technical Modules
+
+- [SAP ABAP](https://sapserveraccess.vercel.app/sap-abap)
+- [SAP Basis](https://sapserveraccess.vercel.app/sap-basis)
+- [SAP BW/4HANA](https://sapserveraccess.vercel.app/sap-bw4hana)
+- [SAP BTP](https://sapserveraccess.vercel.app/sap-btp)
+
+## Services
+
+- SAP server access
+- SAP training environments
+- SAP practice systems
+- SAP functional module practice
+- SAP technical module practice
+- SAP ABAP practice
+- SAP Basis practice
+- SAP BW/4HANA practice
+- SAP BTP practice
+
+## Target Users
+
+- SAP students
+- SAP freshers
+- SAP training institutes
+- Colleges and institutions
+- Companies and corporate training teams
+
+## Contact
+
+- Website: https://sapserveraccess.vercel.app/
+- Phone: 8309820381
