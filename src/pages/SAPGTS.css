@@ -1,0 +1,332 @@
+.sap-gts-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.gts-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.gts-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.gts-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.gts-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.gts-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.gts-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.gts-primary-btn,
+.gts-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gts-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.gts-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.gts-section {
+  padding: 75px 0;
+}
+
+.gts-section h2,
+.gts-dark h2,
+.gts-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.gts-section h2 {
+  color: #0b1f3a;
+}
+
+.gts-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.gts-grid,
+.gts-integration-grid,
+.gts-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.gts-card,
+.gts-integration-card,
+.gts-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.gts-card h3,
+.gts-integration-card h3,
+.gts-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.gts-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.gts-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.gts-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.gts-transactions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.gts-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.gts-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.gts-note {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* DARK */
+
+.gts-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.gts-dark h2 {
+  color: white;
+}
+
+.gts-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.gts-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.gts-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.gts-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.gts-faq {
+  margin-top: 30px;
+}
+
+.gts-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.gts-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.gts-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.gts-contact h2 {
+  color: white;
+}
+
+.gts-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.gts-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.gts-whatsapp,
+.gts-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gts-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.gts-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .gts-grid,
+  .gts-integration-grid,
+  .gts-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gts-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gts-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gts-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .gts-section,
+  .gts-dark {
+    padding: 50px 0;
+  }
+
+  .gts-hero {
+    padding: 70px 0;
+  }
+
+  .gts-hero h1 {
+    font-size: 32px;
+  }
+
+  .gts-buttons,
+  .gts-contact-buttons {
+    flex-direction: column;
+  }
+
+  .gts-grid,
+  .gts-integration-grid,
+  .gts-service-grid,
+  .gts-process-grid,
+  .gts-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .gts-transactions {
+    grid-template-columns: 1fr;
+  }
+
+  .gts-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gts-section h2,
+  .gts-dark h2,
+  .gts-contact h2 {
+    font-size: 28px;
+  }
+}

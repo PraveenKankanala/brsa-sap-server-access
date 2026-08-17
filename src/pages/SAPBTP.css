@@ -1,0 +1,352 @@
+.sap-btp-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.btp-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.btp-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.btp-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.btp-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.btp-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.btp-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.btp-primary-btn,
+.btp-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btp-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.btp-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.btp-section {
+  padding: 75px 0;
+}
+
+.btp-section h2,
+.btp-dark h2,
+.btp-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.btp-section h2 {
+  color: #0b1f3a;
+}
+
+.btp-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.btp-grid,
+.btp-service-grid,
+.btp-consulting-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.btp-card,
+.btp-service-box,
+.btp-consulting-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.btp-card h3,
+.btp-service-box h3,
+.btp-consulting-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* ARCHITECTURE */
+
+.btp-architecture {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btp-architecture-box {
+  display: inline-block;
+  margin: 8px;
+  padding: 18px 25px;
+  background: white;
+  border: 1px solid #dce3e9;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btp-arrow {
+  font-size: 30px;
+  color: #1265a3;
+  margin: 10px;
+}
+
+.btp-platform {
+  max-width: 750px;
+  margin: 15px auto;
+  padding: 30px;
+  background: #0b1f3a;
+  color: white;
+  border-radius: 12px;
+}
+
+.btp-platform h3 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.btp-platform-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.btp-platform-grid span {
+  padding: 14px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 6px;
+}
+
+/* PROCESSES */
+
+.btp-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.btp-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.btp-process h3 {
+  margin-top: 0;
+}
+
+/* DARK */
+
+.btp-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.btp-dark h2 {
+  color: white;
+}
+
+.btp-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.btp-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.btp-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.btp-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.btp-faq {
+  margin-top: 30px;
+}
+
+.btp-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.btp-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.btp-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.btp-contact h2 {
+  color: white;
+}
+
+.btp-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.btp-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.btp-whatsapp,
+.btp-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btp-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.btp-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .btp-grid,
+  .btp-service-grid,
+  .btp-consulting-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btp-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btp-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .btp-section,
+  .btp-dark {
+    padding: 50px 0;
+  }
+
+  .btp-hero {
+    padding: 70px 0;
+  }
+
+  .btp-hero h1 {
+    font-size: 32px;
+  }
+
+  .btp-buttons,
+  .btp-contact-buttons {
+    flex-direction: column;
+  }
+
+  .btp-grid,
+  .btp-service-grid,
+  .btp-consulting-grid,
+  .btp-process-grid,
+  .btp-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .btp-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btp-platform-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btp-architecture-box {
+    display: block;
+  }
+
+  .btp-section h2,
+  .btp-dark h2,
+  .btp-contact h2 {
+    font-size: 28px;
+  }
+}

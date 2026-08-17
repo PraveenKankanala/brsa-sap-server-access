@@ -1,0 +1,332 @@
+.sap-tm-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.tm-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.tm-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.tm-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.tm-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.tm-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.tm-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.tm-primary-btn,
+.tm-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tm-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.tm-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.tm-section {
+  padding: 75px 0;
+}
+
+.tm-section h2,
+.tm-dark h2,
+.tm-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.tm-section h2 {
+  color: #0b1f3a;
+}
+
+.tm-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.tm-grid,
+.tm-integration-grid,
+.tm-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.tm-card,
+.tm-integration-card,
+.tm-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.tm-card h3,
+.tm-integration-card h3,
+.tm-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.tm-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.tm-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.tm-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.tm-transactions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.tm-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.tm-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tm-note {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* DARK */
+
+.tm-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.tm-dark h2 {
+  color: white;
+}
+
+.tm-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.tm-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.tm-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.tm-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.tm-faq {
+  margin-top: 30px;
+}
+
+.tm-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.tm-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.tm-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.tm-contact h2 {
+  color: white;
+}
+
+.tm-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.tm-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.tm-whatsapp,
+.tm-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tm-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.tm-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .tm-grid,
+  .tm-integration-grid,
+  .tm-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tm-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tm-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tm-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .tm-section,
+  .tm-dark {
+    padding: 50px 0;
+  }
+
+  .tm-hero {
+    padding: 70px 0;
+  }
+
+  .tm-hero h1 {
+    font-size: 32px;
+  }
+
+  .tm-buttons,
+  .tm-contact-buttons {
+    flex-direction: column;
+  }
+
+  .tm-grid,
+  .tm-integration-grid,
+  .tm-service-grid,
+  .tm-process-grid,
+  .tm-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .tm-transactions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tm-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tm-section h2,
+  .tm-dark h2,
+  .tm-contact h2 {
+    font-size: 28px;
+  }
+}

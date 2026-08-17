@@ -1,85 +1,91 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Modules.css";
 
 function Modules() {
   return (
-    <section className="modules" id="modules">
+    <section className="module-section">
+      <h2>SAP Modules</h2>
 
-      <div className="container">
+      <div className="module-links">
 
-        <span className="section-tag">SAP MODULES</span>
+        <Link to="/SAPFI" className="module-card">
+          SAP FI
+        </Link>
 
-        <h2>Practice on Live SAP Functional & Technical Modules</h2>
+        <Link to="/SAPCO" className="module-card">
+          SAP CO
+        </Link>
 
-        <p className="section-description">
-          BRSA SAP Server Access provides access to the latest SAP Functional,
-          Technical and Cloud modules on live enterprise servers.
-        </p>
+        <Link to="/SAPMM" className="module-card">
+          SAP MM
+        </Link>
 
-        {/* Functional Modules */}
+        <Link to="/SAPSD" className="module-card">
+          SAP SD
+        </Link>
 
-        <h3 className="module-heading">SAP Functional Modules</h3>
+        <Link to="/SAPPP" className="module-card">
+          SAP PP
+        </Link>
 
-        <div className="modules-grid">
+        <Link to="/SAPQM" className="module-card">
+          SAP QM
+        </Link>
 
-          <div className="module-card">SAP FI (Financial Accounting)</div>
-          <div className="module-card">SAP CO (Controlling)</div>
-          <div className="module-card">SAP MM (Materials Management)</div>
-          <div className="module-card">SAP SD (Sales & Distribution)</div>
-          <div className="module-card">SAP PP (Production Planning)</div>
-          <div className="module-card">SAP QM (Quality Management)</div>
-          <div className="module-card">SAP PM (Plant Maintenance)</div>
-          <div className="module-card">SAP PS (Project System)</div>
-          <div className="module-card">SAP WM (Warehouse Management)</div>
-          <div className="module-card">SAP EWM (Extended Warehouse Management)</div>
-          <div className="module-card">SAP TM (Transportation Management)</div>
-          <div className="module-card">SAP HCM / HR</div>
+        <Link to="/SAPHCM" className="module-card">
+          SAP HCM
+        </Link>
 
-        </div>
+        <Link to="/SAPPS" className="module-card">
+          SAP PS
+        </Link>
 
-        {/* Technical Modules */}
+        <Link to="/SAPPM" className="module-card">
+          SAP PM
+        </Link>
 
-        <h3 className="module-heading">SAP Technical Modules</h3>
+        <Link to="/SAPEWM" className="module-card">
+          SAP EWM
+        </Link>
 
-        <div className="modules-grid">
+        <Link to="/SAPTM" className="module-card">
+          SAP TM
+        </Link>
 
-          <div className="module-card">SAP ABAP</div>
-          <div className="module-card">SAP BASIS</div>
-          <div className="module-card">SAP Fiori</div>
-          <div className="module-card">SAP BW/4HANA</div>
-          <div className="module-card">SAP BTP</div>
-          <div className="module-card">SAP CPI</div>
-          <div className="module-card">SAP PI/PO</div>
-          <div className="module-card">SAP GRC</div>
-          <div className="module-card">SAP Solution Manager</div>
-          <div className="module-card">SAP HANA Administration</div>
-          <div className="module-card">SAP Security</div>
-          <div className="module-card">SAP Workflow</div>
+        <Link to="/SAPGTS" className="module-card">
+          SAP GTS
+        </Link>
 
-        </div>
+        <Link to="/SAPAriba" className="module-card">
+          SAP Ariba
+        </Link>
 
-        {/* Cloud Products */}
+        <Link to="/SAPSuccessFactors" className="module-card">
+          SAP SuccessFactors
+        </Link>
 
-        <h3 className="module-heading">SAP Cloud Solutions</h3>
+        <Link to="/SAPBW4HANA" className="module-card">
+          SAP BW4HANA
+        </Link>
 
-        <div className="modules-grid">
+        <Link to="/SAPBTP" className="module-card">
+          SAP BTP
+        </Link>
 
-          <div className="module-card">SAP S/4HANA 2025</div>
-          <div className="module-card">SAP ECC 6.0</div>
-          <div className="module-card">SAP SuccessFactors</div>
-          <div className="module-card">SAP Ariba</div>
-          <div className="module-card">SAP Concur</div>
-          <div className="module-card">SAP Fieldglass</div>
-          <div className="module-card">SAP Analytics Cloud (SAC)</div>
-          <div className="module-card">SAP Datasphere</div>
-          <div className="module-card">SAP Integration Suite</div>
-          <div className="module-card">SAP Build Apps</div>
-          <div className="module-card">SAP Build Process Automation</div>
-          <div className="module-card">SAP Business One</div>
+        <Link to="/SAPABAP" className="module-card">
+          SAP ABAP
+        </Link>
 
-        </div>
+        <Link to="/SAPBasis" className="module-card">
+          SAP BASIS
+        </Link>
+
+        <Link to="/SAPGRC" className="module-card">
+          SAP GRC
+        </Link>
 
       </div>
-
     </section>
   );
 }

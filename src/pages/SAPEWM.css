@@ -1,0 +1,327 @@
+.sap-ewm-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.ewm-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.ewm-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.ewm-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.ewm-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.ewm-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.ewm-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.ewm-primary-btn,
+.ewm-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ewm-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.ewm-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.ewm-section {
+  padding: 75px 0;
+}
+
+.ewm-section h2,
+.ewm-dark h2,
+.ewm-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.ewm-section h2 {
+  color: #0b1f3a;
+}
+
+.ewm-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.ewm-grid,
+.ewm-integration-grid,
+.ewm-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.ewm-card,
+.ewm-integration-card,
+.ewm-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.ewm-card h3,
+.ewm-integration-card h3,
+.ewm-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.ewm-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.ewm-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.ewm-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.ewm-transactions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.ewm-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.ewm-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DARK */
+
+.ewm-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.ewm-dark h2 {
+  color: white;
+}
+
+.ewm-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.ewm-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.ewm-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.ewm-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.ewm-faq {
+  margin-top: 30px;
+}
+
+.ewm-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.ewm-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.ewm-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.ewm-contact h2 {
+  color: white;
+}
+
+.ewm-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.ewm-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.ewm-whatsapp,
+.ewm-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ewm-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.ewm-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .ewm-grid,
+  .ewm-integration-grid,
+  .ewm-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ewm-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ewm-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ewm-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .ewm-section,
+  .ewm-dark {
+    padding: 50px 0;
+  }
+
+  .ewm-hero {
+    padding: 70px 0;
+  }
+
+  .ewm-hero h1 {
+    font-size: 32px;
+  }
+
+  .ewm-buttons,
+  .ewm-contact-buttons {
+    flex-direction: column;
+  }
+
+  .ewm-grid,
+  .ewm-integration-grid,
+  .ewm-service-grid,
+  .ewm-process-grid,
+  .ewm-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .ewm-transactions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ewm-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ewm-section h2,
+  .ewm-dark h2,
+  .ewm-contact h2 {
+    font-size: 28px;
+  }
+}

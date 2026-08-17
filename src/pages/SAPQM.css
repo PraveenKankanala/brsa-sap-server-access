@@ -1,0 +1,326 @@
+.sap-qm-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.qm-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.qm-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.qm-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.qm-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.qm-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.qm-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.qm-primary-btn,
+.qm-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.qm-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.qm-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.qm-section {
+  padding: 75px 0;
+}
+
+.qm-section h2,
+.qm-dark h2,
+.qm-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.qm-section h2 {
+  color: #0b1f3a;
+}
+
+.qm-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.qm-grid,
+.qm-integration-grid,
+.qm-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.qm-card,
+.qm-integration-card,
+.qm-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.qm-card h3,
+.qm-integration-card h3,
+.qm-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.qm-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.qm-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.qm-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.qm-transactions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.qm-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.qm-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DARK */
+
+.qm-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.qm-dark h2 {
+  color: white;
+}
+
+.qm-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.qm-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.qm-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.qm-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.qm-faq {
+  margin-top: 30px;
+}
+
+.qm-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.qm-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.qm-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.qm-contact h2 {
+  color: white;
+}
+
+.qm-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.qm-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.qm-whatsapp,
+.qm-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.qm-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.qm-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .qm-grid,
+  .qm-integration-grid,
+  .qm-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qm-transactions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .qm-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qm-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .qm-section,
+  .qm-dark {
+    padding: 50px 0;
+  }
+
+  .qm-hero {
+    padding: 70px 0;
+  }
+
+  .qm-hero h1 {
+    font-size: 32px;
+  }
+
+  .qm-buttons,
+  .qm-contact-buttons {
+    flex-direction: column;
+  }
+
+  .qm-grid,
+  .qm-integration-grid,
+  .qm-service-grid,
+  .qm-process-grid,
+  .qm-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .qm-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qm-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .qm-section h2,
+  .qm-dark h2,
+  .qm-contact h2 {
+    font-size: 28px;
+  }
+}

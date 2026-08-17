@@ -1,0 +1,326 @@
+.sap-ps-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.ps-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.ps-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.ps-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.ps-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.ps-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.ps-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.ps-primary-btn,
+.ps-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ps-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.ps-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.ps-section {
+  padding: 75px 0;
+}
+
+.ps-section h2,
+.ps-dark h2,
+.ps-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.ps-section h2 {
+  color: #0b1f3a;
+}
+
+.ps-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.ps-grid,
+.ps-integration-grid,
+.ps-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.ps-card,
+.ps-integration-card,
+.ps-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.ps-card h3,
+.ps-integration-card h3,
+.ps-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.ps-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.ps-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.ps-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.ps-transactions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.ps-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.ps-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DARK */
+
+.ps-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.ps-dark h2 {
+  color: white;
+}
+
+.ps-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.ps-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.ps-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.ps-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.ps-faq {
+  margin-top: 30px;
+}
+
+.ps-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.ps-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.ps-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.ps-contact h2 {
+  color: white;
+}
+
+.ps-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.ps-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.ps-whatsapp,
+.ps-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ps-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.ps-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .ps-grid,
+  .ps-integration-grid,
+  .ps-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ps-transactions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ps-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ps-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .ps-section,
+  .ps-dark {
+    padding: 50px 0;
+  }
+
+  .ps-hero {
+    padding: 70px 0;
+  }
+
+  .ps-hero h1 {
+    font-size: 32px;
+  }
+
+  .ps-buttons,
+  .ps-contact-buttons {
+    flex-direction: column;
+  }
+
+  .ps-grid,
+  .ps-integration-grid,
+  .ps-service-grid,
+  .ps-process-grid,
+  .ps-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .ps-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ps-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ps-section h2,
+  .ps-dark h2,
+  .ps-contact h2 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,327 @@
+.sap-hcm-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.hcm-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.hcm-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.hcm-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.hcm-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.hcm-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.hcm-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.hcm-primary-btn,
+.hcm-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hcm-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.hcm-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.hcm-section {
+  padding: 75px 0;
+}
+
+.hcm-section h2,
+.hcm-dark h2,
+.hcm-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.hcm-section h2 {
+  color: #0b1f3a;
+}
+
+.hcm-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.hcm-grid,
+.hcm-integration-grid,
+.hcm-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.hcm-card,
+.hcm-integration-card,
+.hcm-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.hcm-card h3,
+.hcm-integration-card h3,
+.hcm-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.hcm-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.hcm-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.hcm-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.hcm-transactions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.hcm-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.hcm-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DARK */
+
+.hcm-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.hcm-dark h2 {
+  color: white;
+}
+
+.hcm-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.hcm-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.hcm-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.hcm-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.hcm-faq {
+  margin-top: 30px;
+}
+
+.hcm-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.hcm-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.hcm-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.hcm-contact h2 {
+  color: white;
+}
+
+.hcm-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.hcm-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.hcm-whatsapp,
+.hcm-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hcm-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.hcm-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .hcm-grid,
+  .hcm-integration-grid,
+  .hcm-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hcm-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hcm-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hcm-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .hcm-section,
+  .hcm-dark {
+    padding: 50px 0;
+  }
+
+  .hcm-hero {
+    padding: 70px 0;
+  }
+
+  .hcm-hero h1 {
+    font-size: 32px;
+  }
+
+  .hcm-buttons,
+  .hcm-contact-buttons {
+    flex-direction: column;
+  }
+
+  .hcm-grid,
+  .hcm-integration-grid,
+  .hcm-service-grid,
+  .hcm-process-grid,
+  .hcm-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .hcm-transactions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hcm-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hcm-section h2,
+  .hcm-dark h2,
+  .hcm-contact h2 {
+    font-size: 28px;
+  }
+}

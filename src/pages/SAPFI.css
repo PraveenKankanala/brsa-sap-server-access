@@ -1,0 +1,312 @@
+.sap-module-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #ffffff;
+}
+
+.sap-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.sap-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #0b1f3a, #1261a0);
+  color: white;
+}
+
+.sap-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.sap-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.hero-subtitle {
+  max-width: 850px;
+  font-size: 19px;
+  opacity: 0.95;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.primary-btn {
+  background: white;
+  color: #1261a0;
+}
+
+.secondary-btn {
+  border: 1px solid white;
+  color: white;
+}
+
+/* SECTIONS */
+
+.sap-section {
+  padding: 75px 0;
+}
+
+.sap-section h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  color: #0b1f3a;
+}
+
+.sap-section p {
+  font-size: 17px;
+}
+
+.light-section {
+  background: #f5f8fb;
+}
+
+.dark-section {
+  background: #0b1f3a;
+  color: white;
+}
+
+.dark-section h2 {
+  color: white;
+}
+
+/* GRIDS */
+
+.module-grid,
+.integration-grid,
+.service-grid,
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.module-card,
+.integration-card,
+.service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.05);
+}
+
+.module-card h3,
+.integration-card h3,
+.service-card h3 {
+  color: #1261a0;
+  margin-top: 0;
+}
+
+/* PROCESS */
+
+.process-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.process-list > div {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1261a0;
+}
+
+.process-list strong {
+  font-size: 20px;
+}
+
+/* TRANSACTIONS */
+
+.transaction-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.transaction-grid div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.transaction-grid span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1261a0;
+}
+
+/* FEATURES */
+
+.feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.benefits-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.benefits-list li {
+  padding: 15px 20px;
+  background: white;
+  border-left: 4px solid #1261a0;
+}
+
+/* FAQ */
+
+.faq {
+  margin-top: 30px;
+}
+
+.faq details {
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.contact-section {
+  padding: 80px 0;
+  text-align: center;
+  background: #1261a0;
+  color: white;
+}
+
+.contact-section h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.contact-section p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.whatsapp-btn,
+.email-btn {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+  color: white;
+}
+
+.email-btn {
+  background: white;
+  color: #1261a0;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+  .module-grid,
+  .integration-grid,
+  .service-grid,
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .transaction-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sap-hero h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .sap-section {
+    padding: 50px 0;
+  }
+
+  .sap-hero {
+    padding: 70px 0;
+  }
+
+  .sap-hero h1 {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-buttons,
+  .contact-buttons {
+    flex-direction: column;
+  }
+
+  .module-grid,
+  .integration-grid,
+  .service-grid,
+  .process-list,
+  .benefits-list,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .transaction-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sap-section h2 {
+    font-size: 28px;
+  }
+}

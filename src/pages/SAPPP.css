@@ -1,0 +1,326 @@
+.sap-pp-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.pp-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.pp-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.pp-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.pp-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.pp-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.pp-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.pp-primary-btn,
+.pp-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pp-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.pp-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.pp-section {
+  padding: 75px 0;
+}
+
+.pp-section h2,
+.pp-dark h2,
+.pp-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.pp-section h2 {
+  color: #0b1f3a;
+}
+
+.pp-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.pp-grid,
+.pp-integration-grid,
+.pp-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.pp-card,
+.pp-integration-card,
+.pp-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.pp-card h3,
+.pp-integration-card h3,
+.pp-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.pp-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.pp-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.pp-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.pp-transactions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.pp-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.pp-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DARK */
+
+.pp-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.pp-dark h2 {
+  color: white;
+}
+
+.pp-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.pp-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.pp-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.pp-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.pp-faq {
+  margin-top: 30px;
+}
+
+.pp-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.pp-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.pp-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.pp-contact h2 {
+  color: white;
+}
+
+.pp-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.pp-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.pp-whatsapp,
+.pp-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pp-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.pp-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .pp-grid,
+  .pp-integration-grid,
+  .pp-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pp-transactions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .pp-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pp-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .pp-section,
+  .pp-dark {
+    padding: 50px 0;
+  }
+
+  .pp-hero {
+    padding: 70px 0;
+  }
+
+  .pp-hero h1 {
+    font-size: 32px;
+  }
+
+  .pp-buttons,
+  .pp-contact-buttons {
+    flex-direction: column;
+  }
+
+  .pp-grid,
+  .pp-integration-grid,
+  .pp-service-grid,
+  .pp-process-grid,
+  .pp-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .pp-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pp-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pp-section h2,
+  .pp-dark h2,
+  .pp-contact h2 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,295 @@
+.sap-sf-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.sf-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.sf-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.sf-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.sf-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.sf-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.sf-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.sf-primary-btn,
+.sf-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sf-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.sf-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.sf-section {
+  padding: 75px 0;
+}
+
+.sf-section h2,
+.sf-dark h2,
+.sf-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.sf-section h2 {
+  color: #0b1f3a;
+}
+
+.sf-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.sf-grid,
+.sf-integration-grid,
+.sf-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.sf-card,
+.sf-integration-card,
+.sf-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.sf-card h3,
+.sf-integration-card h3,
+.sf-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.sf-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.sf-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.sf-process h3 {
+  margin-top: 0;
+}
+
+/* DARK */
+
+.sf-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.sf-dark h2 {
+  color: white;
+}
+
+.sf-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.sf-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.sf-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.sf-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.sf-faq {
+  margin-top: 30px;
+}
+
+.sf-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.sf-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.sf-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.sf-contact h2 {
+  color: white;
+}
+
+.sf-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.sf-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.sf-whatsapp,
+.sf-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sf-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.sf-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .sf-grid,
+  .sf-integration-grid,
+  .sf-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sf-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sf-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .sf-section,
+  .sf-dark {
+    padding: 50px 0;
+  }
+
+  .sf-hero {
+    padding: 70px 0;
+  }
+
+  .sf-hero h1 {
+    font-size: 32px;
+  }
+
+  .sf-buttons,
+  .sf-contact-buttons {
+    flex-direction: column;
+  }
+
+  .sf-grid,
+  .sf-integration-grid,
+  .sf-service-grid,
+  .sf-process-grid,
+  .sf-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .sf-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sf-section h2,
+  .sf-dark h2,
+  .sf-contact h2 {
+    font-size: 28px;
+  }
+}

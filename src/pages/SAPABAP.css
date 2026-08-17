@@ -1,0 +1,203 @@
+.abap-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+}
+
+.abap-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.abap-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.abap-badge {
+  border: 1px solid #fff;
+  padding: 7px 15px;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+.abap-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.abap-hero p {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.abap-buttons,
+.abap-contact-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.abap-buttons a,
+.abap-contact-buttons a {
+  padding: 13px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.abap-buttons a:first-child {
+  background: white;
+  color: #1265a3;
+}
+
+.abap-buttons a:last-child {
+  color: white;
+  border: 1px solid white;
+}
+
+.abap-section {
+  padding: 75px 0;
+}
+
+.abap-section h2,
+.abap-dark h2,
+.abap-contact h2 {
+  font-size: 34px;
+  color: #0b1f3a;
+}
+
+.abap-light {
+  background: #f5f8fb;
+}
+
+.abap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.abap-card {
+  padding: 25px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.abap-card h3 {
+  color: #1265a3;
+}
+
+.abap-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.abap-process-grid div {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.abap-process-grid h3 {
+  margin-top: 0;
+}
+
+.abap-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.abap-dark h2 {
+  color: white;
+}
+
+.abap-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.abap-features span {
+  padding: 18px;
+  text-align: center;
+  border: 1px solid #ffffff55;
+  border-radius: 7px;
+}
+
+.abap-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.abap-contact h2 {
+  color: white;
+}
+
+.abap-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.abap-contact-buttons {
+  justify-content: center;
+}
+
+.abap-contact-buttons a:first-child {
+  background: #25d366;
+  color: white;
+}
+
+.abap-contact-buttons a:last-child {
+  background: white;
+  color: #1265a3;
+}
+
+@media (max-width: 900px) {
+  .abap-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .abap-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .abap-hero h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .abap-hero {
+    padding: 70px 0;
+  }
+
+  .abap-hero h1 {
+    font-size: 32px;
+  }
+
+  .abap-grid,
+  .abap-process-grid,
+  .abap-features {
+    grid-template-columns: 1fr;
+  }
+
+  .abap-buttons,
+  .abap-contact-buttons {
+    flex-direction: column;
+  }
+
+  .abap-section h2,
+  .abap-dark h2,
+  .abap-contact h2 {
+    font-size: 28px;
+  }
+}

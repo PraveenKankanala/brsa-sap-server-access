@@ -22,10 +22,18 @@ function Contact() {
           <div className="contact-card">
 
             <h3> Contact Information</h3>
+            <p>
+              <strong>Phone</strong><br />
+              8309820381
+            </p>
+            <p>
+              <strong>Phone</strong><br />
+              9398898773
+            </p>
 
             <p>
               <strong>Email</strong><br />
-              brsrserveraccess@gmail.com
+              erpserveraccess@gmail.com
             </p>
 
             <p>
@@ -38,11 +46,11 @@ function Contact() {
             <p>
               <strong>Instagram</strong><br />
               <a
-                href="https://www.instagram.com/raju1909hana?igsh=MTVmNzJ4c3RqejZ3ZA=="
+                href="https://www.instagram.com/sapserver_access_?igsh=MTlxdWtuZ2p2dnA1MQ=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @raju1909hana
+                @sapserver_access_
               </a>
             </p>
 
@@ -90,21 +98,24 @@ function Contact() {
                 placeholder="Mobile Number"
                 required
               />
+<label htmlFor="sap-product" className="sr-only">
+  Select SAP Product
+</label>
 
-              <select required>
+<select
+  id="sap-product"
+  name="sap-product"
+  required
+>
+  <option value="">
+    Select SAP Product
+  </option>
 
-                <option value="">
-                  Select SAP Product
-                </option>
-
-                <option>SAP S/4HANA 2025</option>
-
-                <option>SAP ECC 6.0</option>
-
-                <option>SAP SuccessFactors</option>
-
-              </select>
-
+  <option>SAP S/4HANA 2025</option>
+  <option>SAP ECC 6.0</option>
+  <option>SAP SuccessFactors</option>
+</select>
+              
               <textarea
                 rows="5"
                 placeholder="Write your message..."

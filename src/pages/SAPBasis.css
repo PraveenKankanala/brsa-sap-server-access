@@ -1,0 +1,203 @@
+.basis-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+}
+
+.basis-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.basis-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.basis-badge {
+  border: 1px solid white;
+  padding: 7px 15px;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+.basis-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.basis-hero p {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.basis-buttons,
+.basis-contact-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.basis-buttons a,
+.basis-contact-buttons a {
+  padding: 13px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.basis-buttons a:first-child {
+  background: white;
+  color: #1265a3;
+}
+
+.basis-buttons a:last-child {
+  color: white;
+  border: 1px solid white;
+}
+
+.basis-section {
+  padding: 75px 0;
+}
+
+.basis-section h2,
+.basis-dark h2,
+.basis-contact h2 {
+  font-size: 34px;
+  color: #0b1f3a;
+}
+
+.basis-light {
+  background: #f5f8fb;
+}
+
+.basis-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.basis-card {
+  padding: 25px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.basis-card h3 {
+  color: #1265a3;
+}
+
+.basis-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.basis-process-grid div {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.basis-process-grid h3 {
+  margin-top: 0;
+}
+
+.basis-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.basis-dark h2 {
+  color: white;
+}
+
+.basis-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.basis-features span {
+  padding: 18px;
+  text-align: center;
+  border: 1px solid #ffffff55;
+  border-radius: 7px;
+}
+
+.basis-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.basis-contact h2 {
+  color: white;
+}
+
+.basis-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.basis-contact-buttons {
+  justify-content: center;
+}
+
+.basis-contact-buttons a:first-child {
+  background: #25d366;
+  color: white;
+}
+
+.basis-contact-buttons a:last-child {
+  background: white;
+  color: #1265a3;
+}
+
+@media (max-width: 900px) {
+  .basis-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .basis-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .basis-hero h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .basis-hero {
+    padding: 70px 0;
+  }
+
+  .basis-hero h1 {
+    font-size: 32px;
+  }
+
+  .basis-grid,
+  .basis-process-grid,
+  .basis-features {
+    grid-template-columns: 1fr;
+  }
+
+  .basis-buttons,
+  .basis-contact-buttons {
+    flex-direction: column;
+  }
+
+  .basis-section h2,
+  .basis-dark h2,
+  .basis-contact h2 {
+    font-size: 28px;
+  }
+}

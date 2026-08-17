@@ -1,0 +1,328 @@
+.sap-bw-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.bw-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.bw-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.bw-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.bw-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.bw-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.bw-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.bw-primary-btn,
+.bw-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bw-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.bw-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.bw-section {
+  padding: 75px 0;
+}
+
+.bw-section h2,
+.bw-dark h2,
+.bw-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.bw-section h2 {
+  color: #0b1f3a;
+}
+
+.bw-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.bw-grid,
+.bw-integration-grid,
+.bw-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.bw-card,
+.bw-integration-card,
+.bw-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.bw-card h3,
+.bw-integration-card h3,
+.bw-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* DATA FLOW */
+
+.bw-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.bw-flow-box {
+  padding: 20px;
+  min-width: 140px;
+  text-align: center;
+  background: #f5f8fb;
+  border: 1px solid #dce3e9;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.bw-flow span {
+  font-size: 28px;
+  color: #1265a3;
+}
+
+/* PROCESSES */
+
+.bw-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.bw-process {
+  padding: 25px;
+  background: white;
+  border-left: 4px solid #1265a3;
+  box-shadow: 0 4px 15px rgba(0,0,0,.05);
+}
+
+.bw-process h3 {
+  margin-top: 0;
+}
+
+/* DARK */
+
+.bw-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.bw-dark h2 {
+  color: white;
+}
+
+.bw-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.bw-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.bw-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.bw-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.bw-faq {
+  margin-top: 30px;
+}
+
+.bw-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.bw-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.bw-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.bw-contact h2 {
+  color: white;
+}
+
+.bw-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.bw-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.bw-whatsapp,
+.bw-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bw-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.bw-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .bw-grid,
+  .bw-integration-grid,
+  .bw-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bw-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bw-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .bw-section,
+  .bw-dark {
+    padding: 50px 0;
+  }
+
+  .bw-hero {
+    padding: 70px 0;
+  }
+
+  .bw-hero h1 {
+    font-size: 32px;
+  }
+
+  .bw-buttons,
+  .bw-contact-buttons {
+    flex-direction: column;
+  }
+
+  .bw-grid,
+  .bw-integration-grid,
+  .bw-service-grid,
+  .bw-process-grid,
+  .bw-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .bw-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bw-flow {
+    flex-direction: column;
+  }
+
+  .bw-flow span {
+    transform: rotate(90deg);
+  }
+
+  .bw-section h2,
+  .bw-dark h2,
+  .bw-contact h2 {
+    font-size: 28px;
+  }
+}

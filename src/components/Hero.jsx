@@ -37,17 +37,17 @@ function Hero() {
           <div className="hero-stats">
 
             <div>
-              <h3>40+</h3>
+              <h2>40+</h2>
               <span>SAP Modules</span>
             </div>
 
             <div>
-              <h3>24×7</h3>
+              <h2>24×7</h2>
               <span>Server Access</span>
             </div>
 
             <div>
-              <h3>99.9%</h3>
+              <h2>99.9%</h2>
               <span>Server Uptime</span>
             </div>
 

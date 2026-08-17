@@ -1,0 +1,326 @@
+.sap-pm-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+  background: #fff;
+}
+
+.pm-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HERO */
+
+.pm-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.pm-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.pm-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.pm-hero-text {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.pm-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.pm-primary-btn,
+.pm-secondary-btn {
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pm-primary-btn {
+  background: white;
+  color: #1265a3;
+}
+
+.pm-secondary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+/* SECTIONS */
+
+.pm-section {
+  padding: 75px 0;
+}
+
+.pm-section h2,
+.pm-dark h2,
+.pm-contact h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.pm-section h2 {
+  color: #0b1f3a;
+}
+
+.pm-light {
+  background: #f5f8fb;
+}
+
+/* CARDS */
+
+.pm-grid,
+.pm-integration-grid,
+.pm-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.pm-card,
+.pm-integration-card,
+.pm-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #e1e6eb;
+  box-shadow: 0 5px 18px rgba(0,0,0,.05);
+}
+
+.pm-card h3,
+.pm-integration-card h3,
+.pm-service-card h3 {
+  color: #1265a3;
+  margin-top: 0;
+}
+
+/* PROCESSES */
+
+.pm-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.pm-process {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.pm-process h3 {
+  margin-top: 0;
+}
+
+/* TRANSACTIONS */
+
+.pm-transactions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.pm-transactions div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.pm-transactions span {
+  display: block;
+  color: #1265a3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DARK */
+
+.pm-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.pm-dark h2 {
+  color: white;
+}
+
+.pm-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.pm-feature-grid div {
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* BENEFITS */
+
+.pm-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.pm-benefits li {
+  background: white;
+  padding: 15px 20px;
+  border-left: 4px solid #1265a3;
+}
+
+/* FAQ */
+
+.pm-faq {
+  margin-top: 30px;
+}
+
+.pm-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.pm-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CONTACT */
+
+.pm-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.pm-contact h2 {
+  color: white;
+}
+
+.pm-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.pm-contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.pm-whatsapp,
+.pm-email {
+  padding: 14px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pm-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.pm-email {
+  background: white;
+  color: #1265a3;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .pm-grid,
+  .pm-integration-grid,
+  .pm-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pm-transactions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .pm-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pm-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .pm-section,
+  .pm-dark {
+    padding: 50px 0;
+  }
+
+  .pm-hero {
+    padding: 70px 0;
+  }
+
+  .pm-hero h1 {
+    font-size: 32px;
+  }
+
+  .pm-buttons,
+  .pm-contact-buttons {
+    flex-direction: column;
+  }
+
+  .pm-grid,
+  .pm-integration-grid,
+  .pm-service-grid,
+  .pm-process-grid,
+  .pm-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .pm-transactions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pm-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pm-section h2,
+  .pm-dark h2,
+  .pm-contact h2 {
+    font-size: 28px;
+  }
+}

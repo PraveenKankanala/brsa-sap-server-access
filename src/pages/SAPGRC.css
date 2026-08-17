@@ -1,0 +1,235 @@
+.grc-page {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.7;
+}
+
+.grc-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grc-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #071d35, #1265a3);
+  color: white;
+}
+
+.grc-badge {
+  border: 1px solid white;
+  padding: 7px 15px;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+.grc-hero h1 {
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.grc-hero p {
+  max-width: 850px;
+  font-size: 19px;
+}
+
+.grc-buttons,
+.grc-contact-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.grc-buttons a,
+.grc-contact-buttons a {
+  padding: 13px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grc-buttons a:first-child {
+  background: white;
+  color: #1265a3;
+}
+
+.grc-buttons a:last-child {
+  color: white;
+  border: 1px solid white;
+}
+
+.grc-section {
+  padding: 75px 0;
+}
+
+.grc-section h2,
+.grc-dark h2,
+.grc-contact h2 {
+  font-size: 34px;
+  color: #0b1f3a;
+}
+
+.grc-light {
+  background: #f5f8fb;
+}
+
+.grc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.grc-card {
+  padding: 25px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.grc-card h3 {
+  color: #1265a3;
+}
+
+.grc-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.grc-process-grid div {
+  padding: 25px;
+  background: #f5f8fb;
+  border-left: 4px solid #1265a3;
+}
+
+.grc-process-grid h3 {
+  margin-top: 0;
+}
+
+.grc-dark {
+  padding: 75px 0;
+  background: #0b1f3a;
+  color: white;
+}
+
+.grc-dark h2 {
+  color: white;
+}
+
+.grc-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.grc-features span {
+  padding: 18px;
+  text-align: center;
+  border: 1px solid #ffffff55;
+  border-radius: 7px;
+}
+
+.grc-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.grc-benefits li {
+  padding: 15px 20px;
+  background: white;
+  border-left: 4px solid #1265a3;
+}
+
+.grc-faq {
+  margin-top: 30px;
+}
+
+.grc-faq details {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.grc-faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.grc-contact {
+  padding: 80px 0;
+  text-align: center;
+  background: #1265a3;
+  color: white;
+}
+
+.grc-contact h2 {
+  color: white;
+}
+
+.grc-contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.grc-contact-buttons {
+  justify-content: center;
+}
+
+.grc-contact-buttons a:first-child {
+  background: #25d366;
+  color: white;
+}
+
+.grc-contact-buttons a:last-child {
+  background: white;
+  color: #1265a3;
+}
+
+@media (max-width: 900px) {
+  .grc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grc-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grc-hero h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grc-hero {
+    padding: 70px 0;
+  }
+
+  .grc-hero h1 {
+    font-size: 32px;
+  }
+
+  .grc-grid,
+  .grc-process-grid,
+  .grc-features,
+  .grc-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .grc-buttons,
+  .grc-contact-buttons {
+    flex-direction: column;
+  }
+
+  .grc-section h2,
+  .grc-dark h2,
+  .grc-contact h2 {
+    font-size: 28px;
+  }
+}
